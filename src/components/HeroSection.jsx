@@ -7,7 +7,7 @@ import blue from "../assets/icons/bluedots.svg";
 
 const HeroSection = () => {
   return (
-    <section className="flex flex-col-reverse px-20 mt-10 md:flex-row md:justify-between md:mt-20 md:items-center">
+    <section className="flex flex-col-reverse px-20 mt-10 md:flex-row md:justify-between md:mt-24 md:items-center">
       {/* Word Descriptions */}
       <div className="space-y-4">
         <h1 className="text-[#141414] text-2xl text-center md:text-left md:text-6xl font-bold font-sora">
