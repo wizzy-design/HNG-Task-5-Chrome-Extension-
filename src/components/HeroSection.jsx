@@ -9,11 +9,11 @@ const HeroSection = () => {
   return (
     <section className="flex flex-col-reverse px-20 mt-10 md:flex-row md:justify-between md:mt-24 md:items-center">
       {/* Word Descriptions */}
-      <div className="space-y-4 flex flex-col items-center md:block">
-        <h1 className="text-[#141414] text-2xl text-center md:text-left md:text-6xl font-bold font-sora">
+      <div className="flex flex-col items-center space-y-4 md:block">
+        <h1 className="text-[#141414] text-3xl text-center md:text-left md:text-6xl font-bold font-sora">
           Show Them <br /> Don&apos;t Just Tell
         </h1>
-        <p className="text-lg pb-5 text-center md:text-left">
+        <p className="pb-5 text-lg text-center md:text-left">
           Help your friends and loved ones by creating and sending <br /> videos
           on how to get things done on a website.
         </p>
@@ -24,26 +24,26 @@ const HeroSection = () => {
 
       {/* Images display */}
       <div className="grid grid-cols-2 grid-rows-1 gap-6 max-w-fit mb-4 md:mb-0 md:w-[45%]">
-        <div className="max-w-fit space-y-5 relative">
-          <img src={boy} alt="Boy" className="rounded-xl relative z-20" />
+        <div className="relative space-y-5 max-w-fit">
+          <img src={boy} alt="Boy" className="relative z-20 rounded-xl" />
           <img
             src={lwoman}
             alt="Woman with laptop"
-            className="rounded-xl z-20 relative"
+            className="relative z-20 rounded-xl"
           />
-          <img src={blue} alt="Blue grid" className="hidden md:block absolute z-10 top-44 right-10" />
+          <img src={blue} alt="Blue grid" className="absolute z-10 hidden md:block top-44 right-10" />
         </div>
 
-        <div className="max-w-fit relative">
+        <div className="relative max-w-fit">
           <img
             src={pwoman}
             alt="Woman with phone"
-            className="rounded-xl relative z-20"
+            className="relative z-20 rounded-xl"
           />
           <img
             src={grey}
             alt="Grey grid"
-            className="hidden md:block absolute z-10 left-12 bottom-44"
+            className="absolute z-10 hidden md:block left-12 bottom-44"
           />
         </div>
       </div>

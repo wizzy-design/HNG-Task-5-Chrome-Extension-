@@ -5,10 +5,10 @@ import dashboard from "../assets/images/video-repo.svg";
 
 const Features = () => {
   return (
-    <section className="mb-24 px-8 mt-36">
+    <section className="px-8 mb-24 mt-36">
       {/* Title */}
-      <div className="text-center space-y-2 pb-2">
-        <h1 id="title" className="text-[#141414] font-bold text-4xl font-sora">
+      <div className="pb-2 space-y-2 text-center">
+        <h1 id="title" className="text-[#141414] font-bold text-3xl md:text-4xl font-sora">
           Features
         </h1>
         <p id="sub-title" className="text-[#616163] font-work">
@@ -17,7 +17,7 @@ const Features = () => {
       </div>
 
       {/* Info Section */}
-      <div className="flex flex-col-reverse md:flex-row justify-between px-12 py-12 items-center gap-y-10 md:gap-x-4">
+      <div className="flex flex-col-reverse items-center justify-between px-12 py-12 md:flex-row gap-y-10 md:gap-x-4">
         {/* left */}
         <div id="left" className="space-y-10">
           <div id="card1" className="flex gap-x-4">

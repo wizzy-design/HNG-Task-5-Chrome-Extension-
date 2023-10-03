@@ -3,14 +3,14 @@ import logo from "../assets/icons/navLogo.svg";
 
 const Nav = () => {
   return (
-    <nav className="flex items-center px-4 md:px-20 py-6 justify-between shadow-navShadow">
+    <nav className="flex items-center justify-between px-6 py-6 md:px-20 shadow-navShadow">
       {/* Nav Logo */}
       <div id="logo">
         <img src={logo} alt="" />
       </div>
 
       {/* Nav Links */}
-      <div id="links" className="hidden md:flex space-x-10 text-black font-medium">
+      <div id="links" className="hidden space-x-10 font-medium text-black md:flex">
         <a href="#">Feature</a>
         <a href="#">How It Works</a>
       </div>

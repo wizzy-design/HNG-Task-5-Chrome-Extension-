@@ -13,13 +13,13 @@ const HowItWorks = () => {
       {/* The steps to use product */}
       <div
         id="steps"
-        className="flex flex-col md:flex-row pt-6 md:px-12 md:py-14 space-y-6 md:space-y-0 md:justify-between"
+        className="flex flex-col pt-6 space-y-6 md:flex-row md:px-20 md:py-14 md:space-y-0 md:justify-between"
       >
         {/* Step 1 */}
         <div id="step1" className="flex flex-col items-center space-y-3">
           <div
             id="step-title"
-            className="flex space-x-2 md:flex-col items-center md:space-y-4 md:space-x-0"
+            className="flex items-center space-x-2 md:flex-col md:space-y-4 md:space-x-0"
           >
             <h1 className="text-center text-2xl font-bold bg-[#120B48] text-white px-3 py-0.5 md:px-4 md:py-1.5 rounded-full cursor-pointer font-inter">
               1
@@ -50,7 +50,7 @@ const HowItWorks = () => {
         <div id="step2" className="flex flex-col items-center space-y-3">
           <div
             id="step-title"
-            className="flex space-x-2 md:flex-col items-center md:space-y-4 md:space-x-0"
+            className="flex items-center space-x-2 md:flex-col md:space-y-4 md:space-x-0"
           >
             <h1 className="text-center text-2xl font-bold bg-[#120B48] text-white px-3 py-0.5 md:px-4 md:py-1.5 rounded-full cursor-pointer font-inter">
               2
@@ -81,7 +81,7 @@ const HowItWorks = () => {
         <div id="step3" className="flex flex-col items-center space-y-3">
           <div
             id="step-title"
-            className="flex space-x-2 md:flex-col items-center md:space-y-4 md:space-x-0"
+            className="flex items-center space-x-2 md:flex-col md:space-y-4 md:space-x-0"
           >
             <h1 className="text-center text-2xl font-bold bg-[#120B48] text-white px-3 py-0.5 md:px-4 md:py-1.5 rounded-full cursor-pointer font-inter">
               3
