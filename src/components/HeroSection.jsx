@@ -9,7 +9,7 @@ const HeroSection = () => {
   return (
     <section className="flex flex-col-reverse px-20 mt-10 md:flex-row md:justify-between md:mt-24 md:items-center">
       {/* Word Descriptions */}
-      <div className="space-y-4">
+      <div className="space-y-4 flex flex-col items-center md:block">
         <h1 className="text-[#141414] text-2xl text-center md:text-left md:text-6xl font-bold font-sora">
           Show Them <br /> Don&apos;t Just Tell
         </h1>
@@ -17,8 +17,8 @@ const HeroSection = () => {
           Help your friends and loved ones by creating and sending <br /> videos
           on how to get things done on a website.
         </p>
-        <button className="bg-[#120B48] text-white px-8 py-4 flex gap-2 items-center rounded-lg">
-          Install HelpMeOut <img src={arrow} alt="Arrow" />
+        <button className="bg-[#120B48] text-white flex px-4 gap-x-2 md:px-8 py-2 md:py-4 md:gap-2 items-center rounded-lg">
+          Install HelpMeOut <img src={arrow} alt="Arrow" className="pl-0.5"/>
         </button>
       </div>
 
