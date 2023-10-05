@@ -3,9 +3,9 @@ import Features from "../components/Features";
 import Footer from "../components/Footer";
 import HeroSection from "../components/HeroSection";
 import HowItWorks from "../components/HowItWorks";
-import SignIn from "../components/auth/SignIn.jsx";
 import { Route, Routes } from "react-router-dom";
 import { useLocation } from "react-router-dom";
+import GetStarted from "../components/GetStarted";
 
 const LandingPage = () => {
   const location = useLocation();
@@ -27,7 +27,7 @@ const LandingPage = () => {
 
       {/* Routes */}
       <Routes>
-        <Route path="/login" element={<SignIn />} />
+        <Route path="/login" element={<GetStarted />} />
       </Routes>
     </>
   );
