@@ -1,5 +1,6 @@
 // Navigation bar component
 import logo from "../assets/icons/navLogo.svg";
+import { Link } from "react-router-dom";
 
 const Nav = () => {
   return (
@@ -17,7 +18,7 @@ const Nav = () => {
 
       {/* Signup/Login Page Link */}
       <div id="getStarted">
-        <a href="#" className="text-[#120B48] font-semibold text-md md:text-lg font-sora">Get Started</a>
+        <Link to="/login" className="text-[#120B48] font-semibold text-md md:text-lg font-sora">Get Started</Link>
       </div>
     </nav>
   );
