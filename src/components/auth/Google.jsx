@@ -30,8 +30,7 @@ const Google = () => {
   };
 
   // Logged-in user
-  // const user = auth.currentUser;
-  /* {user && <p>{user.displayName}</p>} */
+  const user = auth.currentUser;
 
   return (
     <button
@@ -40,6 +39,7 @@ const Google = () => {
     >
       <img src={google} alt="Google icon" className="pr-5" /> Continue with
       Google
+      {/* {user && <p>{user.displayName}</p>} */}
     </button>
   );
 };
