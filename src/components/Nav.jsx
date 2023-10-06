@@ -11,14 +11,22 @@ const Nav = () => {
       </div>
 
       {/* Nav Links */}
-      <div id="links" className="hidden space-x-10 font-medium text-black md:flex">
+      <div
+        id="links"
+        className="hidden space-x-10 font-medium text-black md:flex"
+      >
         <a href="#">Feature</a>
         <a href="#">How It Works</a>
       </div>
 
       {/* Signup/Login Page Link */}
       <div id="getStarted">
-        <Link to="/login" className="text-[#120B48] font-semibold text-md md:text-lg font-sora">Get Started</Link>
+        <Link
+          to="/getstarted"
+          className="text-[#120B48] font-semibold text-md md:text-lg font-sora"
+        >
+          Get Started
+        </Link>
       </div>
     </nav>
   );
